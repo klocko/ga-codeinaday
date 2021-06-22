@@ -1,0 +1,19 @@
+body {
+  background-color: #FFFACD;
+}
+h1 {
+  color: #7D26CD;
+  background-color: #FFE303;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+
+/* -------- Media Query: Phone -------- */
+
+@media only screen and (max-width: 900px) {
+  body{
+    background-color: #FEE8D6;
+  }
+}
