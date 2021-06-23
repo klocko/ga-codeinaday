@@ -1,10 +1,16 @@
-body {
-  background-color: #FFFACD;
-}
 h1 {
-  color: #7D26CD;
-  background-color: #FFE303;
+  background-color:#222;
+  color: #FFF;
   text-align: center;
+}
+h2 {
+  background-color:#222;
+  color: #FFF;
+  text-align: center;
+}
+body {
+  background: linear-gradient(#FFE4E1,#FFDAB9, #FFFACD, #98FB98, #87CEEB, #E6E6FA, #D8BFD8);
+  font-family: "Century Gothic";
 }
 img {
   max-width: 100%;
@@ -14,6 +20,6 @@ img {
 
 @media only screen and (max-width: 900px) {
   body{
-    background-color: #FEE8D6;
+    background-color: #E6E6FA;
   }
 }
